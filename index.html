@@ -155,15 +155,33 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 <footer class="w3-container w3-red
  w3-center w3-margin-top">
   <p>Find me on social media.</p>
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <a href="https://github.com/ChambersM97"class="fa fa-github w3-hover-opacity"></a>
+  <a href="https://www.linkedin.com/in/chambers-mansour-87535417a/" target="_blank" class="fa fa-linkedin w3-hover-opacity"></a>
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 </footer>
 
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">Projects</h3>
+  <p class="w3-center"><em>Click on the images to make them larger</em></p><br>
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center w3-show">
+    <div class="w3-col m6">
+      <img src="./Assests/03-javascript-homework-demo.png" style="width:100%;height: 200px" onclick="onClick(this)" class="w3-hover-opacity" alt="Password-Generator">
+      <button class="w3-button w3-text-black w3-hover-black"><a target="_blank" href="https://chambersm97.github.io/3_Password_Generator-/" >Password Generator</a></button>
+    </div>
+    <div class="w3-col m6">
+      <img src="./Assests/Big-Picture.PNG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Big-Picture">
+      <button class="w3-button w3-text-black w3-hover-black"><a target="_blank" href="https://sakiskid.github.io/Big-Picture/" >Big Picture</a></button>
+    </div>
+  </div>
+
+<script>// Modal Image Gallery
+  function onClick(element) {
+    document.getElementById("img01").src = element.src;
+    document.getElementById("modal01").style.display = "block";
+    var captionText = document.getElementById("caption");
+    captionText.innerHTML = element.alt;
+  }</script>
 </body>
 </html>
 </body>

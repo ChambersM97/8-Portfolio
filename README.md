@@ -7,3 +7,6 @@
 note: MAKE SURE TO TAKE MULTIPLE BREAKS WHEN DEBUGGIN YOUR CODE
 
 Some of the things I learned while doing this assignment:
+
+![Password-Generator-img](Assests/portpicture.PNG)
+![Password-Generator-img](Assests/Chambers-Mansour-Resume-1.png)
